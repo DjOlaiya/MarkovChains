@@ -1,10 +1,20 @@
-In this project, I use a homogenous finite markov chain to model the economic transition of countries--essentially, I am attempting to answer questions like these:
+Using R, I modelled the economic transition of countries using a time-homogenous finite markov chain.
+A time-homogenous finite markov chain is a process that transitions based purely on the current state of the process. 
+Or mathematically, 
 
-1) Assuming a country is currently classified as Low Income, what is the possibility that it might become a Superpower
+{\displaystyle \Pr(X_{n+1}=x\mid X_{n}=y)=\Pr(X_{n}=x\mid X_{n-1}=y)}
 
-2) What is the steady state distribution of countries; what is the probability that a country is classified as Low Income, Middle Income, Upper Middle INcome, etc?
+for a finite period of time. 
 
-3) If a country is currently low ranked, how long will it remain there?
+With this model implemented, I will address transitive queries like the ones posted below: 
+
+* If a country is currently classified as Low Income, what is the possibility that it might become a Superpower?
+
+* What is the steady state distribution of countries? 
+
+* What is the probability that a country is classified as Low Income, Middle Income, Upper Middle Income, etc?
+
+* If a country is currently ranked low relative to other countries, how long will it remain there?
 
 Etc. 
  
