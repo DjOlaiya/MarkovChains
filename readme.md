@@ -2,7 +2,7 @@ Using R, I modelled the economic transition of countries using a time-homogenous
 A time-homogenous finite markov chain is a process that transitions based purely on the current state of the process. 
 Or mathematically, 
 
-{\displaystyle \Pr(X_{n+1}=x\mid X_{n}=y)=\Pr(X_{n}=x\mid X_{n-1}=y)}
+Pr(X(n+1)=x | X(n)=y ) =  Pr(X(n)=x | X(n-1)=y) , for all values of n. 
 
 for a finite period of time. 
 
